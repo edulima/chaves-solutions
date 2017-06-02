@@ -29,10 +29,6 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-  - ['kramdown']
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
 
